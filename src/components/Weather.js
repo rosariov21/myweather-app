@@ -39,19 +39,17 @@ getWeather = async (e) => {
  ).catch(console.error());
   
  if (city === '') {
-   alert("City Missing")
+   alert("Missing City")
   }
  
  
 }
 
-
-
 render (){
 
 return(
 
-<div id='all' >
+<div id='Everything' >
 <br/>
 <br/>
 
@@ -67,7 +65,7 @@ onChange={this.handleChange}
 <br/>
 <br/>
 
-<Button className="btn-primary" variant='primary' type='submit'>Get Weather</Button>
+<Button className="btn-primary" variant='primary' type='submit'> Search </Button>
 
   <br/>
   <br/>
